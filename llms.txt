@@ -1,0 +1,12 @@
+# bOS-House — Operating System Research
+
+> Operating system research project by Igor Holt.
+
+## Research Areas
+- Novel OS architectures
+- AI-native computing environments
+- Thermodynamic computing integration
+
+## Creator
+Igor Holt — AI Architect
+https://genesisconductor.io

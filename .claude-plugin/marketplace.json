@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "bos-house",
+  "owner": {
+    "name": "Igor Holt (@invariantx)",
+    "url": "https://github.com/igor-holt"
+  },
+  "description": "bOS-House experimental/personal project in the Igor Holt (@invariantx) GitHub surface. Lower-profile public straggler covered as part of the Claude Marketplace Manifest Rollout to ensure the entire public @invariantx / Genesis Conductor surface has tied manifests.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igor-holt/bOS-House",
+  "keywords": [
+    "igor-holt",
+    "invariantx",
+    "bos-house",
+    "genesis-conductor",
+    "experimental",
+    "openclaw-ecosystem"
+  ],
+  "plugins": [
+    {
+      "name": "bos-house",
+      "source": "https://github.com/igor-holt/bOS-House",
+      "description": "bOS-House experimental project by @invariantx. Contributes to the personal research and prototype footprint of the Genesis Conductor ecosystem. Reference the main openclaw-skills marketplace for the canonical production OpenClaw / ClawHub skills bundle.",
+      "version": "1.0.0",
+      "tags": ["experimental", "bos-house", "genesis-conductor"],
+      "category": "experimental",
+      "homepage": "https://github.com/igor-holt/bOS-House",
+      "keywords": ["b os house igor holt", "@invariantx experimental"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/igor-holt/bOS-House",
+    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
+    "x": "https://x.com/invariantx"
+  }
+}

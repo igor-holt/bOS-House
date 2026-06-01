@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "L": 4,
+    "M": 4,
+    "beta": 1.0,
+    "steps": 2000,
+    "ttc_threshold_ratio": 0.9,
+    "seed_list": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "constants": {
+      "J_ij_mean": 0.021,
+      "entropy_seed_eV": 0.037,
+      "flip_bias": 0.14,
+      "tau_sw_ps": 6.8
+    },
+    "ttc_definition": "TtC = min{t : E(t) <= threshold_ratio * min(E)}. If never reached, TtC = len(trace).",
+    "actual_n_reconciliation": "actual_N == 2 * M * L^2",
+    "runtime_seconds": 0.95
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "pure": {
+        "ttc": 1845,
+        "parisi_ratio": 3.914487,
+        "final_energy": -1.098659,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 1839,
+        "parisi_ratio": 3.618811,
+        "final_energy": -2.255907,
+        "spectral_gap": 4.556729,
+        "bridge_edges": 392
+      },
+      "ttc_delta_pct": 0.3252
+    },
+    {
+      "seed": 1,
+      "pure": {
+        "ttc": 537,
+        "parisi_ratio": 0.504387,
+        "final_energy": -0.59429,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 379,
+        "parisi_ratio": 0.84833,
+        "final_energy": -1.001345,
+        "spectral_gap": 4.434185,
+        "bridge_edges": 389
+      },
+      "ttc_delta_pct": 29.4227
+    },
+    {
+      "seed": 2,
+      "pure": {
+        "ttc": 1884,
+        "parisi_ratio": 0.54917,
+        "final_energy": -0.722775,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 1869,
+        "parisi_ratio": 1.226559,
+        "final_energy": -0.600888,
+        "spectral_gap": 3.757214,
+        "bridge_edges": 359
+      },
+      "ttc_delta_pct": 0.7962
+    },
+    {
+      "seed": 3,
+      "pure": {
+        "ttc": 560,
+        "parisi_ratio": 1.19326,
+        "final_energy": -0.250893,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 579,
+        "parisi_ratio": 0.444682,
+        "final_energy": -0.462985,
+        "spectral_gap": 4.658983,
+        "bridge_edges": 442
+      },
+      "ttc_delta_pct": -3.3929
+    },
+    {
+      "seed": 4,
+      "pure": {
+        "ttc": 1154,
+        "parisi_ratio": 1.670712,
+        "final_energy": -0.395054,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 1240,
+        "parisi_ratio": 0.969747,
+        "final_energy": -0.554144,
+        "spectral_gap": 3.955554,
+        "bridge_edges": 409
+      },
+      "ttc_delta_pct": -7.4523
+    },
+    {
+      "seed": 5,
+      "pure": {
+        "ttc": 192,
+        "parisi_ratio": 0.471377,
+        "final_energy": -0.304846,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 656,
+        "parisi_ratio": 0.643355,
+        "final_energy": -1.286878,
+        "spectral_gap": 4.169678,
+        "bridge_edges": 390
+      },
+      "ttc_delta_pct": -241.6667
+    },
+    {
+      "seed": 6,
+      "pure": {
+        "ttc": 1898,
+        "parisi_ratio": 0.766554,
+        "final_energy": -0.257473,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 832,
+        "parisi_ratio": 1.136714,
+        "final_energy": -1.695317,
+        "spectral_gap": 4.09971,
+        "bridge_edges": 380
+      },
+      "ttc_delta_pct": 56.1644
+    },
+    {
+      "seed": 7,
+      "pure": {
+        "ttc": 703,
+        "parisi_ratio": 1.536798,
+        "final_energy": -0.183332,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 810,
+        "parisi_ratio": 1.004029,
+        "final_energy": -0.218984,
+        "spectral_gap": 3.973833,
+        "bridge_edges": 377
+      },
+      "ttc_delta_pct": -15.2205
+    },
+    {
+      "seed": 8,
+      "pure": {
+        "ttc": 546,
+        "parisi_ratio": 0.398793,
+        "final_energy": -0.7074,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 556,
+        "parisi_ratio": 0.463855,
+        "final_energy": -0.992297,
+        "spectral_gap": 3.699724,
+        "bridge_edges": 337
+      },
+      "ttc_delta_pct": -1.8315
+    },
+    {
+      "seed": 9,
+      "pure": {
+        "ttc": 676,
+        "parisi_ratio": 0.853577,
+        "final_energy": -0.141343,
+        "spectral_gap": 0.282184
+      },
+      "hybrid": {
+        "ttc": 680,
+        "parisi_ratio": 0.898571,
+        "final_energy": -0.817083,
+        "spectral_gap": 3.612599,
+        "bridge_edges": 362
+      },
+      "ttc_delta_pct": -0.5917
+    }
+  ],
+  "aggregate": {
+    "mean_ttc_pure": 999.5,
+    "mean_ttc_hybrid": 944.0,
+    "mean_ttc_delta_pct": -18.3447,
+    "std_ttc_delta_pct": 77.046,
+    "min_ttc_delta_pct": -241.6667,
+    "max_ttc_delta_pct": 56.1644
+  }
+}
